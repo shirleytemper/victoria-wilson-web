@@ -1,0 +1,23 @@
+body {
+    background-color:#262B2C;
+    color: white;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Source Sans 3', serif;
+}
+
+.headshot {
+    height: 250px;
+    width: 354px;
+}
+
+footer {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.5rem;
+}
