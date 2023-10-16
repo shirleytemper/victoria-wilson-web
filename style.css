@@ -1,15 +1,23 @@
 body {
     background-color:#262B2C;
     color: white;
-    padding: 1rem;
 }
 
 h1 {
     font-family: 'Playfair Display', serif;
 }
 
-p {
+body {
     font-family: 'Source Sans 3', serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style-type: none;
 }
 
 .headshot {
@@ -20,4 +28,20 @@ p {
 footer {
     font-family: 'Playfair Display', serif;
     font-size: 0.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    flex: 1
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
 }
